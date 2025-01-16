@@ -1,4 +1,16 @@
-.card {
+html {
+    background-color: aqua;
+}
+
+.card-container {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
 }
