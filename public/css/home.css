@@ -2,6 +2,12 @@ html {
     background-color: aqua;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
 .card-container {
     display: flex;
     flex-direction: row;
@@ -13,8 +19,4 @@ html {
     flex-direction: column;
     align-items: center;
     margin: 10px;
-}
-
-img {
-    width: 450px;
 }
